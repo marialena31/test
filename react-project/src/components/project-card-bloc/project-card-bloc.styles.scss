@@ -1,0 +1,13 @@
+@import "../../sass/main";
+
+.project-card-bloc  {
+    margin-top: 16rem;
+    width: 111rem;
+    max-width: 111rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 3rem;
+    row-gap: 3rem;
+    grid-auto-flow: dense;
+}

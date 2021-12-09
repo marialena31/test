@@ -1,0 +1,14 @@
+@import "../../sass/variables";
+
+.nav {
+    display: flex;
+
+    &__item {
+        margin-left: 4rem;
+        color: $dark-grey;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

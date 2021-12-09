@@ -1,0 +1,21 @@
+@import "../../sass/variables";
+
+.btn {
+    width: 152px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: $font-weight-medium;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:active {
+        transform: translateY(0.2rem);
+    }
+}

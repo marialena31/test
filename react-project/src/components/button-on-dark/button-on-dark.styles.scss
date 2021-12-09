@@ -1,0 +1,12 @@
+@import "../../sass/variables";
+
+.on-dark {
+    background-color: $white-color;
+    color: $dark-grey;
+
+    &:hover,
+    &:active {
+        background-color: $light-peach;
+        color: $white-color;
+    }
+}

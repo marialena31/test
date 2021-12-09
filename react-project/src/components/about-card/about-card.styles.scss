@@ -1,0 +1,61 @@
+@import "../../sass/main";
+
+.about-card.encart-couleur {
+    height: 64rem;
+    background-color: #FDF3F0;
+    padding-left: 9.5rem;
+
+    &__text {
+
+        &__title {
+            color: $peach-color;
+        }
+    
+        &__info {
+            color: $dark-grey;
+        }
+        
+    }
+}
+
+.reverse.about-card.encart-couleur {
+    flex-direction: row-reverse;
+    padding-right: 9.5rem;
+    margin-top: 16rem;
+    margin-bottom: 0;
+    
+    &__text {
+        margin-right: 0;
+    }
+
+    &__picture {
+        justify-content: flex-start;
+
+        &__img {
+            margin-left: -9.5rem;
+        }
+    }
+}
+
+// .reverse.about-card.encart-couleur {
+//     display: grid;
+//     grid-template-columns: 43% 57%;
+//     grid-template-rows: 64rem;;
+
+//     &__h2 {
+//         display: block;
+//     }
+//     &__text {
+//         grid-column: 2 / 3;
+//         padding: 15.4rem 9.6rem;
+//     }
+
+//      &__picture {
+//         grid-column: 1 / 2;
+//         display: block;
+      
+        
+
+       
+//     }
+// }

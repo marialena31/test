@@ -1,0 +1,86 @@
+@import "../../sass/main";
+
+.encart-couleur {
+    margin: auto;
+    width: 111.1rem;
+    height: 25.2rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    border-radius: 15px;
+    background-color: $peach-color;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: $white-color;
+
+    &.middle-height {
+        height: 48rem;
+        overflow: hidden;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    &.big-height {
+        justify-content: space-between;
+        height: 64rem;
+        padding-top: 14.5rem;
+        align-items: flex-start;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    &__text {
+        width: 85rem;
+
+        &.middle-height {
+            width: 44.5rem;
+            margin-right: 9.5rem;
+        }
+
+        &.big-height {
+            display: flex;
+            flex-direction: column;
+            overflow-wrap: break-word;
+        }
+        
+        &__title {
+            height: 9.6rem;
+            font-size: $font-heading-1;
+            line-height: $font-line-height-heading-1;
+            font-weight: $font-weight-medium;
+            display: flex;
+            flex-direction: column;
+
+            &.big-height {
+                justify-self: flex-start;
+                height: 16.5rem;
+                width: 54rem;
+                overflow-wrap: break-word;
+            }
+        }
+
+        &__info {  
+            &.big-height {
+                margin-bottom: 4rem;;
+            }
+        }
+    }
+
+    &__picture {
+        margin-top: -17rem;
+        padding-right: 0;
+        width: 47.6rem;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+
+        &.middle-height {
+            margin-top:0;
+            height: 100%;
+        }
+    }
+}
